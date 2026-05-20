@@ -91,7 +91,7 @@ An example sketch that works with the Windows application is being tested on var
 The distance to the leading edge of the storm is estimated in km, and returned by `getStormDistance()`: 1 = overhead, 63 = out of range. When a lighting strike is detected, it stores the energy level, 
 which is read with `getStrikeEnergy()` as a unitless 21-bit value. 
 
-If using the IRQ output as an event signal, call `getIRQSource()` to determine what happened, see below.
+If using the IRQ output as an event signal, call `getIRQSource()` to determine what happened.
 
 ## IRQ Output
 
