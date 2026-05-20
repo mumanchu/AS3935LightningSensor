@@ -3,7 +3,7 @@
 Ful details of this project can be found in the blog \
 https://muman.ch/muman/index.htm?muman-as3935-lightning-sensor.htm
 
-I also developed a Windows application which can be downloaded \
+A Windows application has been developed, which works with the example sketch \
 https://muman.ch/muman/index.htm?muman-as3935-lightning-sensor-app.htm
 
 ![AS3935 Lightning Detector App](https://muman.ch/muman/lightning-detector-app-4.png)
@@ -82,6 +82,7 @@ class AS3935LightningSensor
 ## Example Sketch
 
 TODO
+An example sketch that works with the Windows application is being tested on various devices...
 <br/> <br/>
 
 
