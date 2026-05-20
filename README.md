@@ -3,7 +3,10 @@
 Ful details of this project can be found in the blog \
 https://muman.ch/muman/index.htm?muman-as3935-lightning-sensor.htm
 
-There is also a Windows application which can be downloaded.
+I also developed a Windows application which can be downloaded \
+https://muman.ch/muman/index.htm?muman-as3935-lightning-sensor-app.htm
+
+![AS3935 Lightning Detector App](https://muman.ch/muman/lightning-detector-app-4.png)
 
 ## ** PRELIMINARY **
 Let me know if it doesn't work...
