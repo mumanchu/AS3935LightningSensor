@@ -126,15 +126,6 @@ https://www.sciosense.com/wp-content/uploads/2023/12/AS3935-Data-Sheet.pdf
 
 GRAVITY/DFROBOT MODULE
 https://www.bastelgarage.ch/gravity-as3935-lightning-distance-sensor
-
-SCHEMATIC
-TODO add link to file on muman.ch
-file:///C:/Users/matth/Downloads/SEN0290%20(V1.0)%20Schematic.pdf
-
-THE OFFICIAL LIBRARIES
-The Mattlabs code below has several improvements on these, including useful comments
-https://github.com/DFRobot/DFRobot_AS3935/tree/master
-https://github.com/sparkfun/SparkFun_AS3935_Lightning_Detector_Arduino_Library
 */
 
 #include <Wire.h>
