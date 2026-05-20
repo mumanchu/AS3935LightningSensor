@@ -24,9 +24,59 @@ The sensitivity of these checks can be configured with `setAFEGain()`, `setWatch
 
 If it's determined to be a lightning strike, the event is stored in a circular buffer from which it uses a statistical algorithm to estimate the distance of the storm in kilometers. Further strikes will not be detected for 1 second. The circular buffer can be cleared with `clearStatistics()`, which sets the storm distance to 0.
 
+## Class Reference
+
+Read the commented source code for details.
+
+```cpp
+class AS3935LightningSensor
+{
+  ...
+	// Control
+	bool begin(TwoWire* twoWire, uint i2cAddress);
+	bool reset();
+	bool powerUp();
+	bool powerDown();
+	bool calibrateOscillators();
+	bool clearStatistics();
+
+	// Data Values
+	bool getStormDistance(uint* km);
+	bool getStrikeEnergy(ulong* strikeEnergy);
+	bool getIRQSource(uint* irqSource);
+
+	// Configuration
+	bool setAFEGain(AFEGAIN afeGain);
+	bool getAFEGain(AFEGAIN* afeGain);
+	bool setMinimumStrikes(uint minStrikes);
+	bool getMinimumStrikes(uint* minStrikes);
+	bool enableDisturberInterrupt();
+	bool disableDisturberInterrupt();
+	bool setNoiseFloorLevel(uint noiseFloorLevel);
+	bool getNoiseFloorLevel(uint* noiseFloorLevel);
+	bool setWatchdogThreshold(uint wdogThreshold);
+	bool getWatchdogThreshold(uint* wdogThreshold);
+	bool setSpikeRejection(uint spikeRejection);
+	bool getSpikeRejection(uint* spikeRejection);
+
+	// Calibration
+	bool selectIRQOutput(uint n);
+	bool setLCOFrequencyDivider(uint fdiv);
+	bool getLCOFrequencyDivider(uint* fdiv);
+	bool setTuningCapacitor(uint tuneCap);
+	bool getTuningCapacitor(uint* tuneCap);
+
+  #ifdef DEBUG
+	bool dumpRegisters();
+  #endif
+};
+```
+
 ## Example Sketch
 
 TODO
+<br/> <br/>
+
 
 ## Readings
 
