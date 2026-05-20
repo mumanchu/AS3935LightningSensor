@@ -135,14 +135,14 @@ These clocks are derived from the antenna LCO oscillator, so that should be manu
 
 ## Testing
 
-You can either wait for the next thunderstorm (see Benjamin Franklin), or use some kind of spark generator which will be wildly inaccurate, like Tesla Coils. 
+You can either wait for the next thunderstorm (as did Benjamin Franklin), or use some kind of spark generator like a Tesla Coil. This will be wildy inaccurate, but it will indicate that something is happening.
 
-I used a 1970's ZEROSTAT antistatic pistol, a piezo-electric device which generates a spark if you pull the trigger too fast. Piezo cigarette lighters will do the same thing. 
+I used a 1970's ZEROSTAT antistatic pistol, a piezo-electric device which generates a spark if you pull the trigger too fast. Piezo cigarette and gas lighters will probably do the same thing (but I didn't try it). 
 
 > [!CAUTION]
 > Electrostatic discharges (and lightning strikes) are LETHAL to modern electronics! See Disclaimer.
 
-Alternatively, make a continuous spark generator with the ignition coil from the rusting Maserati in your garage. \
+Alternatively, make a continuous spark generator with the ignition coil from that rusting Maserati in your garage. \
 See https://muman.ch/muman/index.htm?muman-ignition-coil-driver.htm.
 
 Tesla coils and piezo-electric devices caused I2C communications errors for me, and the I2C communications hung. This may be due to interference through the long off-board I2C wiring. I added the [temporary] `restartWire()` method which lets it recover.
