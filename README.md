@@ -1,4 +1,4 @@
-# AS3935LightningSensor
+# AS3935LightningSensor Library
 
 Ful details of this project can be found in the blog \
 https://muman.ch/muman/index.htm?muman-as3935-lightning-sensor.htm
