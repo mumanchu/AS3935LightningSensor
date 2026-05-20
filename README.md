@@ -27,6 +27,10 @@ The sensitivity of these checks can be configured with `setAFEGain()`, `setWatch
 
 If it's determined to be a lightning strike, the event is stored in a circular buffer from which it uses a statistical algorithm to estimate the distance of the storm in kilometers. Further strikes will not be detected for 1 second. The circular buffer can be cleared with `clearStatistics()`, which sets the storm distance to 0.
 
+This is the link to the manufacturer's web page, they call it the 'Franklin Lightning Sensor' \
+https://www.sciosense.com/franklin-lightning-sensor/
+
+
 ## Class Reference
 
 Read the commented source code for details.
