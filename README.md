@@ -1,15 +1,15 @@
 # AS3935LightningSensor Library
 
+## ** PRELIMINARY **
+Let me know if it doesn't work...
+
 Ful details of this project can be found in the blog \
 https://muman.ch/muman/index.htm?muman-as3935-lightning-sensor.htm
 
-A Windows application has been developed (and is being updated), which works with the example sketch \
+A Windows application has been developed (and is currently being enhanced), which works with the example sketch \
 https://muman.ch/muman/index.htm?muman-as3935-lightning-sensor-app.htm
  
 ![AS3935 Lightning Detector App](https://muman.ch/muman/lightning-detector-app-4.png)
-
-## ** PRELIMINARY **
-Let me know if it doesn't work...
 
 ## Summary 
 "_The AS3935 is a programmable fully integrated Lightning Sensor IC that detects the presence and approach of potentially hazardous lightning activity in the vicinity and provides an estimation of the distance to the head of the storm._"
@@ -83,9 +83,8 @@ class AS3935LightningSensor
 
 TODO
 
-An example sketch that works with the Windows application is being tested on various devices. This is being updated to do long term logging to flash memory using devices with an uniterruptable power supply. The Windows app can upload and display the log.
+An example sketch that works with the Windows application is being tested on various devices. This is being updated to do long term logging to flash memory using a device with a real time clock and an uniterruptable power supply. The log will hold many years worth of events. The Windows app can upload and display the log.
 <br/> <br/>
-
 
 ## Readings
 
@@ -164,11 +163,19 @@ https://www.sciosense.com/wp-content/uploads/2023/12/AS3935-Data-Sheet.pdf
 ## Gravity/DFRobot Module
 
 https://www.dfrobot.com/product-1828.html
-<br/> <br/>
+
+## Revision History
+
+| Date       | Version  | Description |
+|:---------- |:---------|:----------- |
+| 2026.05.21 | 0.0.0	| Preliminary |
+
+<br/>
+
 
 ## Joke of the Week
 
-I needed a nap, not an App, you fules!
+I needed _a nap_, not _an App_, you fule!
 
 
 
