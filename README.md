@@ -3,9 +3,9 @@
 Ful details of this project can be found in the blog \
 https://muman.ch/muman/index.htm?muman-as3935-lightning-sensor.htm
 
-A Windows application has been developed, which works with the example sketch \
+A Windows application has been developed (and is being updated), which works with the example sketch \
 https://muman.ch/muman/index.htm?muman-as3935-lightning-sensor-app.htm
-
+ 
 ![AS3935 Lightning Detector App](https://muman.ch/muman/lightning-detector-app-4.png)
 
 ## ** PRELIMINARY **
@@ -82,7 +82,8 @@ class AS3935LightningSensor
 ## Example Sketch
 
 TODO
-An example sketch that works with the Windows application is being tested on various devices...
+
+An example sketch that works with the Windows application is being tested on various devices. This is being updated to do long term logging to flash memory using devices with an uniterruptable power supply. The Windows app can upload and display the log.
 <br/> <br/>
 
 
