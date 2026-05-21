@@ -1,9 +1,9 @@
 # AS3935LightningSensor Library
 
 ## ** PRELIMINARY **
-Let me know if it doesn't work...
+_Let me know if it doesn't work..._
 
-Ful details of this project can be found in the blog \
+Full details of this project can be found in the blog \
 https://muman.ch/muman/index.htm?muman-as3935-lightning-sensor.htm
 
 A Windows application has been developed (and is currently being enhanced), which works with the example sketch \
