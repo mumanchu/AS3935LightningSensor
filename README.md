@@ -6,10 +6,12 @@ _Let me know if it doesn't work..._
 Full details of this project can be found in the blog \
 https://muman.ch/muman/index.htm?muman-as3935-lightning-sensor.htm
 
-A Windows application has been developed (and is currently being enhanced), which works with the example sketch \
+A Windows application has been developed (and is currently being enhanced), which works with the example sketch.
 https://muman.ch/muman/index.htm?muman-as3935-lightning-sensor-app.htm
- 
-![AS3935 Lightning Detector App](https://muman.ch/muman/lightning-detector-app-4.png)
+
+![gravity module](https://muman.ch/muman/as3935-gravity.png)
+![sparkfun module](https://muman.ch/muman/as3935-sparkfun.png)
+
 
 ## Summary 
 "_The AS3935 is a programmable fully integrated Lightning Sensor IC that detects the presence and approach of potentially hazardous lightning activity in the vicinity and provides an estimation of the distance to the head of the storm._"
@@ -163,6 +165,10 @@ https://www.sciosense.com/wp-content/uploads/2023/12/AS3935-Data-Sheet.pdf
 ## Gravity/DFRobot Module
 
 https://www.dfrobot.com/product-1828.html
+
+## Windows Application
+
+![AS3935 Lightning Detector App](https://muman.ch/muman/lightning-detector-app-4.png)
 
 ## Revision History
 
