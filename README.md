@@ -14,7 +14,12 @@ https://muman.ch/muman/index.htm?muman-as3935-lightning-sensor-app.htm
 
 
 ## Summary 
-"_The AS3935 is a programmable fully integrated Lightning Sensor IC that detects the presence and approach of potentially hazardous lightning activity in the vicinity and provides an estimation of the distance to the head of the storm._"
+
+Benjamin Franklin nearly electrocuted himself by flying a kite into a thunderstorm. This is not recommended (see Disclaimer, again). Now you can use the Franklin Lightning Sensor™ chip for lightning detection. _"Lightning is a leading cause of storm deaths and causes $ billions of damage."_ But not if you have a Franklin Lightning Sensor™ chip, which gives you precious time to move yourself and your real estate out of the way of the oncoming storm!
+
+The AS3935 is a programmable fully integrated Lightning Sensor IC that detects the presence and approach of potentially hazardous lightning activity in the vicinity and provides an estimation of the distance to the head of the storm.
+
+<br/>
 
 Here's a summary of the 40-page data sheet, so you don't have to read it...
 
